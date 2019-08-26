@@ -12,6 +12,7 @@
 		696D54262313618100B7BF43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 696D54242313618100B7BF43 /* Main.storyboard */; };
 		696D54282313618200B7BF43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 696D54272313618200B7BF43 /* Assets.xcassets */; };
 		696D542B2313618200B7BF43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 696D54292313618200B7BF43 /* LaunchScreen.storyboard */; };
+		696D5433231366CE00B7BF43 /* HealthySnacks.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 696D5432231366CE00B7BF43 /* HealthySnacks.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		696D54272313618200B7BF43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		696D542A2313618200B7BF43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		696D542C2313618200B7BF43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		696D5432231366CE00B7BF43 /* HealthySnacks.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = HealthySnacks.mlmodel; path = "../../../../Downloads/2 - Core ML Models/Begin/HealthySnacks.mlmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		696D541F2313618100B7BF43 /* MachineLearning */ = {
 			isa = PBXGroup;
 			children = (
+				696D5432231366CE00B7BF43 /* HealthySnacks.mlmodel */,
 				696D54202313618100B7BF43 /* AppDelegate.swift */,
 				696D54222313618100B7BF43 /* ViewController.swift */,
 				696D54242313618100B7BF43 /* Main.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				696D54232313618100B7BF43 /* ViewController.swift in Sources */,
 				696D54212313618100B7BF43 /* AppDelegate.swift in Sources */,
+				696D5433231366CE00B7BF43 /* HealthySnacks.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
